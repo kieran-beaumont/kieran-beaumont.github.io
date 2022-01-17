@@ -1,0 +1,27 @@
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0px;
+    height: 100%;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: red;
+}
+#sidenav {
+    width: 220px;
+    float: left;
+}
+#main {
+    width: 50%;
+    float: left;
+}
+.inactive {
+    display: none
+}
+.nav-button {
+    width: 100%;
+}

@@ -1,7 +1,29 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="functionality.js"></script>
+    </head>
+    <body>
+        <div class="sidebar" id="sidenav" style="top: 44px; height: 100%;">
+            <h2>Projects</h2>
+            <button onclick="togglePage('CoreXY')" class="nav-button">CoreXY</button>
+            <button onclick="togglePage('ASME')" class="nav-button">ASME</button>
+        </div>
+        <div class="active" id="CoreXY">
+            <h1>Kieran Beaumont</h1>
+            <h2>CoreXY Printer</h2>
+            <h3>January 2021</h3>
+            <img src="Images/CoreXY/image1.jpg" alt="Italian Trulli" width=20%>
+            <img src="Images/CoreXY/first_print.jpg" alt="Italian Trulli" width=15%>
+            <p>I'm hosted with GitHub Pages.</p>
+        </div>
+        <div class="inactive" id="ASME">
+            <h1>Kieran Beaumont</h1>
+            <h2>ASME</h2>
+            <h3>January 2021</h3>
+            <img src="Images/CoreXY/first_print.jpg" alt="Italian Trulli" width=15%>
+            <p>I'm hosted with GitHub Pages.</p>
+        </div>
 </body>
 </html>
